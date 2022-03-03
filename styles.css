@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  gap: 100px;
+  padding: 50px 200px;
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards .card img {
+  width: 100%;
+  height: 329px;
+  object-fit: cover;
+}
